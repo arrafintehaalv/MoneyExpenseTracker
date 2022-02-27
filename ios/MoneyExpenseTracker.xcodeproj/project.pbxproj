@@ -14,6 +14,7 @@
 		4D063477FBA9FF5709617FA6 /* libPods-MoneyExpenseTracker-MoneyExpenseTrackerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4437235D665ABA74CBE5E5 /* libPods-MoneyExpenseTracker-MoneyExpenseTrackerTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9015C9F4E1BB8FF033E7C5B2 /* libPods-MoneyExpenseTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8F337164ABB6E264086C46 /* libPods-MoneyExpenseTracker.a */; };
+		9CC0698E27CB71A50072E5D7 /* MoneyExpenseTrackerAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC0698D27CB71A50072E5D7 /* MoneyExpenseTrackerAppIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		6E5575048EEA6C8F01CD555E /* Pods-MoneyExpenseTracker-MoneyExpenseTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyExpenseTracker-MoneyExpenseTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-MoneyExpenseTracker-MoneyExpenseTrackerTests/Pods-MoneyExpenseTracker-MoneyExpenseTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F8F337164ABB6E264086C46 /* libPods-MoneyExpenseTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoneyExpenseTracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MoneyExpenseTracker/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CC0698D27CB71A50072E5D7 /* MoneyExpenseTrackerAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MoneyExpenseTrackerAppIcon.png; path = ../../MoneyExpenseTrackerAppIcon.png; sourceTree = "<group>"; };
 		DA4437235D665ABA74CBE5E5 /* libPods-MoneyExpenseTracker-MoneyExpenseTrackerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoneyExpenseTracker-MoneyExpenseTrackerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -89,6 +91,7 @@
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				9CC0698D27CB71A50072E5D7 /* MoneyExpenseTrackerAppIcon.png */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
@@ -145,7 +148,6 @@
 				6E5575048EEA6C8F01CD555E /* Pods-MoneyExpenseTracker-MoneyExpenseTrackerTests.debug.xcconfig */,
 				3A47210B098622DF3B54C5F6 /* Pods-MoneyExpenseTracker-MoneyExpenseTrackerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,6 +247,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				9CC0698E27CB71A50072E5D7 /* MoneyExpenseTrackerAppIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

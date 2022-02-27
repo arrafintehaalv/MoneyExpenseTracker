@@ -11,7 +11,7 @@ function DrawerNavigator() {
     <Drawer.Navigator useLegacyImplementation={false} initialRouteName="Home">
       <Drawer.Screen name="Home" component={HomeScreen} />
       <Drawer.Screen name="ExpenseCategoryScreen" component={ExpenseCategoryScreen} />
-      <Drawer.Screen name="ExpenseLoggerScreen" component={ExpenseLoggerScreen} />
+      <Drawer.Screen name="ExpenseLoggerScreen" component={ExpenseLoggerScreen} options={{unmountOnBlur:true}} />
     </Drawer.Navigator>
   );
 }
